@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 const DefaultFeatureListSection: FC = function () {
   return (
-    <section className="bg-white dark:bg-gray-900 ">
+    <section id="features" className="bg-white dark:bg-gray-900 ">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:py-16lg:px-6">
         <div className="mb-8 max-w-screen-md lg:mb-16">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">

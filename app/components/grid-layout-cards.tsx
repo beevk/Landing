@@ -3,7 +3,7 @@ import type { FC } from "react";
 
 const GridLayoutTestimonialCards: FC = function () {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section id="company" className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
         <div className="mx-auto max-w-screen-md text-center">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">

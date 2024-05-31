@@ -51,6 +51,7 @@ const DefaultHeaderNavigation: FC = function () {
           <Navbar.Link href="/#features">Features</Navbar.Link>
           <Navbar.Link href="/#pricing">Pricing</Navbar.Link>
           <Navbar.Link href="/#contact">Contact</Navbar.Link>
+          <Navbar.Link href="#">Docs</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </header>
