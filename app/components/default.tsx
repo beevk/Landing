@@ -1,12 +1,11 @@
 "use client";
-import { on } from "events";
 import { Button, DarkThemeToggle, Navbar } from "flowbite-react";
 import type { FC } from "react";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
     <header>
-      <Navbar sticky-top fluid className="bg-white dark:bg-gray-900 ">
+      <Navbar fluid className="bg-white dark:bg-gray-900 ">
         <Navbar.Brand href="https://flowbite.com">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
@@ -14,12 +13,12 @@ const DefaultHeaderNavigation: FC = function () {
             alt="Flowbite Logo"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Flowbite
+            Enterprise
           </span>
         </Navbar.Brand>
         <div className="flex items-center gap-3 md:gap-2 lg:order-2 md:order-2">
           <DarkThemeToggle />
-          <Button color="blue" href="#">
+          <Button color="blue" href="/#pricing">
             Get started
           </Button>
 
@@ -44,16 +43,14 @@ const DefaultHeaderNavigation: FC = function () {
               },
             }}
             active
-            href="#"
+            href="/"
           >
             Home
           </Navbar.Link>
-          <Navbar.Link href="#">Company</Navbar.Link>
-          <Navbar.Link href="#">Marketplace</Navbar.Link>
-
-          <Navbar.Link href="#">Features</Navbar.Link>
-          <Navbar.Link href="#">Team</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link href="/#company">Company</Navbar.Link>
+          <Navbar.Link href="/#features">Features</Navbar.Link>
+          <Navbar.Link href="/#pricing">Pricing</Navbar.Link>
+          <Navbar.Link href="/#contact">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </header>

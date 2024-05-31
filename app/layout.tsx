@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import { ThemeModeScript } from "flowbite-react";
 import DefaultHeaderNavigation from "./components/default";
 import SitemapLinksFooterSection from "./components/sitemap-links";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "next-flowbite-react-landing",
-  description: "Nextjs Flowbite React Starter | Saas Landing",
+  title: "Enterprise Solutions",
+  description: "Helping businesses grow with our enterprise solutions.",
 };
 
 export default function RootLayout({

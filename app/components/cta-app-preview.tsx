@@ -1,6 +1,5 @@
 import { Button } from "flowbite-react";
 import type { FC } from "react";
-import { blue } from "tailwindcss/colors";
 
 const AppScreenshotWithCTAsHero: FC = function () {
   return (

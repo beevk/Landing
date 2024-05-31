@@ -1,4 +1,3 @@
-"use client";
 import type { FC } from "react";
 
 const SitemapLinksFooterSection: FC = function () {
