@@ -10,7 +10,7 @@ const DefaultPricingTable: FC = function () {
                         Designed for business teams like yours
                     </h2>
                     <p className="mb-5 text-gray-500 dark:text-gray-400 sm:text-xl">
-                        Here at Enterprise Solutions we focus on markets where technology, innovation,
+                        Here at ApexSudo we focus on markets where technology, innovation,
                         and capital can unlock long-term value and drive economic growth.
                     </p>
                 </div>
@@ -20,7 +20,7 @@ const DefaultPricingTable: FC = function () {
                         desc="Best option for open source projects."
                         price="FREE"
                         term="forever"
-                        cta="Get started"
+                        cta="Try Now"
                         benefits={["Unlimited Repositories", "Unlimited developers", "No credit card requirement", "Community support", "Free updates"]}
                         link="https://github.com/features/actions" // Link to Github Action page
                     />

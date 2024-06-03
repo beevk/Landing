@@ -15,8 +15,9 @@ type IProps = {
 const PricingCard: FC<IProps> = function ({title, desc, price, term, cta, benefits, link, highlighted = false }) {
     return (
         <div
-            className="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8"
+            className="relative mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8"
         >
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"></div>
             <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
             <p className="text-gray-500 dark:text-gray-400 sm:text-lg">{desc}</p>
             <div className="my-8 flex items-baseline justify-center">
@@ -42,7 +43,14 @@ const PricingCard: FC<IProps> = function ({title, desc, price, term, cta, benefi
                     </li>
                 ))}
             </ul>
-            <Button href={link}>{cta}</Button>
+            <Button
+                outline={!highlighted}
+                href={link}
+                // className="bg-blue-700 hover:bg-cyan-700 dark:hover:bg-cyan-700"
+                color="blue"
+            >
+                {cta}
+            </Button>
         </div>
     );
 }

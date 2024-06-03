@@ -217,12 +217,12 @@ const SitemapLinksFooterSection: FC = function () {
                 </linearGradient>
               </defs>
             </svg>
-            Enterprise Solutions
+            ApexSudo
           </a>
           <span className="block text-center text-sm text-gray-500 dark:text-gray-400">
             © {new Date().getFullYear()}&nbsp;
             <a href="#" className="hover:underline">
-              Enterprise Solutions™
+              ApexSudo™
             </a>
             . All Rights Reserved.
           </span>
